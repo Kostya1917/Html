@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="http://google.com">
+            <label for="firstname"><p>First name: </p></label> <input required id="firstname" placeholder="enter your name" name="username" type="text">
+            <label for="lastname"><p>Last name: </p></label><input id="lastname" placeholder="enter your lastname" name="lastname" type="text">
+            <label for="password"><p>Password: </p></label><input id="password" placeholder="enter your password" name="userpassword" type="password">
+            <label for="email"><p>Email: </p></label><input required id="email" placeholder="enter your email" name="email" type="email">
+            <label><p>Stay logged in: <input name="logged" type="checkbox"></p></label>
+            <label><p>male: <input type="radio" name="sex" value="male"></p></label>
+            <label><p>female: <input type="radio" name="sex" value="female"></p></label>
+            <label><p>Choose your favorite color: <input type="color" name="color"></p></label>
+            <p>Choose your favorite animal</p>
+            <p>
+                <select name="animal">
+                    <option>Cat</option>
+                    <option>Rat</option>
+                    <option>Dog</option>
+                </select>
+            </p>
+            <label><p>Submit data: <input type="submit"></p></label>
+        </form>
+    </body>
+</html>
